@@ -17,7 +17,7 @@ import { ErrorComponent } from './components/error/error.component';
     AppComponent,
     DashboardComponent,
     HeaderComponent,
-    MenuBarComponent
+    MenuBarComponent,
     LoginComponent,
     ErrorComponent
   ],
