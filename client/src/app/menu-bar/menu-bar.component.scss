@@ -1,0 +1,17 @@
+.menu-bar {
+
+    height: 25px;
+    background-color: #63c8f2;
+    color: #f8f9f7;
+    font-weight: bold;
+
+    .horizontal-menu-bar {
+        display: inline;
+        float: right;
+
+        .horizontal-menu-bar-list li {
+            display: inline;
+            padding: 20px;
+        }
+    }
+}
