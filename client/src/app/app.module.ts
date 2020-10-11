@@ -5,6 +5,9 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { HeaderComponent } from './header/header.component';
+import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './components/login/login.component';
 import { ErrorComponent } from './components/error/error.component';
@@ -12,6 +15,9 @@ import { ErrorComponent } from './components/error/error.component';
 @NgModule({
   declarations: [
     AppComponent,
+    DashboardComponent,
+    HeaderComponent,
+    MenuBarComponent
     LoginComponent,
     ErrorComponent
   ],
