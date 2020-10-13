@@ -12,7 +12,7 @@ export class RegistrationComponent implements OnInit {
   public  email:  string  =  "";
   public  password:  string  =  "";
   public  confirmPassword:  string  =  "";
-  public  birthDate:  string = ""; 
+  public  birthdate:  FormControl = new FormControl(new Date());
 
   constructor() { }
 
