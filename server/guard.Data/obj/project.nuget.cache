@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xDQPcPjznMyubi2IQwGkUhBBfQd0cJ7TCUgwvyuLYFLHmWdLcZVRjqPbV4ds/PSLVZ6WUunSgoQlHTzeKG1q0g==",
+  "dgSpecHash": "gKVSa3PAEj5WL+wu06gye0nzdVKcwaNWJJPJHTc/wVnYAdj3qauG6affwok7ylYbZyLBpOJlIg77rzTLnKlXPQ==",
   "success": true,
-  "projectFilePath": "c:\\Sandbox\\guard\\server\\guard.Data\\guard.Data.csproj",
+  "projectFilePath": "C:\\Sandbox\\guard\\server\\guard.Data\\guard.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jbart\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\jbart\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

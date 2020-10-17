@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Sandbox\\guard\\server\\guard.Core\\guard.Core.csproj": {}
+    "C:\\Sandbox\\guard\\server\\guard.Core\\guard.Core.csproj": {}
   },
   "projects": {
-    "c:\\Sandbox\\guard\\server\\guard.Core\\guard.Core.csproj": {
+    "C:\\Sandbox\\guard\\server\\guard.Core\\guard.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Sandbox\\guard\\server\\guard.Core\\guard.Core.csproj",
+        "projectUniqueName": "C:\\Sandbox\\guard\\server\\guard.Core\\guard.Core.csproj",
         "projectName": "guard.Core",
-        "projectPath": "c:\\Sandbox\\guard\\server\\guard.Core\\guard.Core.csproj",
+        "projectPath": "C:\\Sandbox\\guard\\server\\guard.Core\\guard.Core.csproj",
         "packagesPath": "C:\\Users\\jbart\\.nuget\\packages\\",
-        "outputPath": "c:\\Sandbox\\guard\\server\\guard.Core\\obj\\",
+        "outputPath": "C:\\Sandbox\\guard\\server\\guard.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
