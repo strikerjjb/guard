@@ -9,3 +9,11 @@ Guard is an application for coordinating someone to wait in the hospital lobby f
 3. Execute the following command from the same folder to run it: docker run -d -p 8080:80 --name guard-server guard-server
 4. Once the server is running, execute the following command from the client folder to build it: docker build --rm -t guard-client:latest .
 5. Execute the following command from the same folder to run it: docker run --rm -d -p 90:80/tcp --name guard-client guard-client:latest
+
+## Data store Information
+
+Server: joshly.com
+Database: guard
+User: sa
+Pass: (contact me on slack)
+Port: (contact me on slack)
