@@ -2,13 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
 @Component({
-  selector: 'registration',
-  templateUrl: './registration.component.html',
-  styleUrls: ['./registration.component.scss']
+  selector: 'profile',
+  templateUrl: './profile.component.html',
+  styleUrls: ['./profile.component.scss']
 })
-export class RegistrationComponent implements OnInit {
+export class ProfileComponent implements OnInit {
 
-  public  username:  string  =  "";
+  public  username:  string  =  "Test";
   public  email:  string  =  "";
   public  password:  string  =  "";
   public  confirmPassword:  string  =  "";
@@ -17,9 +17,10 @@ export class RegistrationComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
-  register(): void {
+  update(): void {
     console.log('Registered');
   }
 

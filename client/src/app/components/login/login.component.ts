@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 import { ErrorComponent } from '../error/error.component'
 
 @Component({
-  selector: 'app-login',
+  selector: 'login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })

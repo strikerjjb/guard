@@ -1,0 +1,33 @@
+<mat-card  class="profile-card">
+    <mat-card-header class="profile-card-header">
+        <mat-card-title>{{username}}</mat-card-title>
+        <img src="https://testimages.org/img/testimages_screenshot.jpg" />
+    </mat-card-header>
+    <mat-card-content>
+        <form class="profile-form">
+            <mat-form-field class="full-width">
+                <mat-label>Username</mat-label>
+                <input  matInput  placeholder="Username" [(ngModel)]="username"  name="username"  required>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <mat-label>Email</mat-label>
+                <input  matInput  placeholder="Email" [(ngModel)]="email"  name="email"  required>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <mat-label>Date of Birth</mat-label>
+                <input matInput [matDatepicker]="birthdatePicker" placeholder="Date of Birth" [formControl]="birthdate" disabled="true">
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <mat-label>Password</mat-label>
+                <input  matInput  placeholder="Password" [(ngModel)]="password"  type="password"  name="password"  required>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <mat-label>Confirm Password</mat-label>
+                <input  matInput  placeholder="Confirm Password" [(ngModel)]="confirmPassword"  type="password"  name="confirmPassword"  required>
+            </mat-form-field>
+        </form>
+    </mat-card-content>
+    <mat-card-actions>
+        <button  mat-raised-button (click)="update()"  color="primary">Update</button>
+    </mat-card-actions>
+</mat-card>
