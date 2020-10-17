@@ -14,6 +14,8 @@ export class ProfileComponent implements OnInit {
   public  confirmPassword:  string  =  "";
   public  birthdate:  FormControl = new FormControl(new Date());
 
+  public disableBirthdateUpdates: boolean = true;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -21,7 +23,7 @@ export class ProfileComponent implements OnInit {
   }
 
   update(): void {
-    console.log('Registered');
+    console.log('Updated');
   }
 
 }
