@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eTRQ9jAtPwwPnVlTbT9wG+lx8cRrKc+EOZbJ0gMBq/AyAtTlpWRAcFxtsNApti8bj6wa92mvxdS7538WT9JzHQ==",
+  "dgSpecHash": "+/FLP3QOYR/xFhvKr77acOyHLFOanfd9HVDNBKJN212SheJSi5i9R74DjrKR2/VG2bNiSKy7KtvxK32iLXrQ5w==",
   "success": true,
-  "projectFilePath": "c:\\Sandbox\\guard\\server\\guard.Core\\guard.Core.csproj",
+  "projectFilePath": "C:\\Sandbox\\guard\\server\\guard.Core\\guard.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

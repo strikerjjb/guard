@@ -6,7 +6,7 @@ namespace guard.Core.Repositories
 {
     public interface IUnitOfWork : IDisposable
     {
-         IEmployeeRepository Employee { get; }
+         IEmployeeRepository Employees { get; }
          Task<int> CommitAsync();
     }
 }

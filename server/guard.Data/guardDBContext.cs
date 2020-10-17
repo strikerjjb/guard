@@ -4,11 +4,10 @@ using guard.Data.Configurations;
 
 namespace guard.Data
 {
-    public class guardDBContext : DbContext
+    public class GuardDBContext : DbContext
     {
-        public DbSet<Employee> Employee {get; set;}
-
-         public guardDBContext(DbContextOptions<guardDBContext> options)
+        public DbSet<Employee> Employees { get; set; }
+        public GuardDBContext(DbContextOptions<GuardDBContext> options)
             : base(options)
         { }
 
@@ -17,5 +16,7 @@ namespace guard.Data
             builder
                 .ApplyConfiguration(new EmployeeConfiguration());
         }
+
+        
     }
 }

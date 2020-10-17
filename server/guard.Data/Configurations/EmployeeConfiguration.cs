@@ -24,6 +24,9 @@ namespace guard.Data.Configurations
                 .Property(m => m.LastName)
                 .IsRequired()
                 .HasMaxLength(50);
+            
+            builder
+                .ToTable("Employees");
         }
     }
 }

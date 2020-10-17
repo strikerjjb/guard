@@ -5662,11 +5662,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Sandbox\\guard\\server\\guard.Data\\guard.Data.csproj",
+      "projectUniqueName": "C:\\Sandbox\\guard\\server\\guard.Data\\guard.Data.csproj",
       "projectName": "guard.Data",
-      "projectPath": "c:\\Sandbox\\guard\\server\\guard.Data\\guard.Data.csproj",
+      "projectPath": "C:\\Sandbox\\guard\\server\\guard.Data\\guard.Data.csproj",
       "packagesPath": "C:\\Users\\jbart\\.nuget\\packages\\",
-      "outputPath": "c:\\Sandbox\\guard\\server\\guard.Data\\obj\\",
+      "outputPath": "C:\\Sandbox\\guard\\server\\guard.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5685,8 +5685,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "c:\\Sandbox\\guard\\server\\guard.Core\\guard.Core.csproj": {
-              "projectPath": "c:\\Sandbox\\guard\\server\\guard.Core\\guard.Core.csproj"
+            "C:\\Sandbox\\guard\\server\\guard.Core\\guard.Core.csproj": {
+              "projectPath": "C:\\Sandbox\\guard\\server\\guard.Core\\guard.Core.csproj"
             }
           }
         }
