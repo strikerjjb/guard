@@ -3,6 +3,7 @@
         <ul class="horizontal-menu-bar-list">
             <li><a routerLink="/registration">Register</a></li>
             <li><a routerLink="/login">Login</a></li>
+            <li *ngIf="showProfileLink"><a routerLink="/profile">Profile</a></li>
         </ul>
     </div>
 </div>

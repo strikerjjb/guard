@@ -2,25 +2,28 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
 @Component({
-  selector: 'registration',
-  templateUrl: './registration.component.html',
-  styleUrls: ['./registration.component.scss']
+  selector: 'profile',
+  templateUrl: './profile.component.html',
+  styleUrls: ['./profile.component.scss']
 })
-export class RegistrationComponent implements OnInit {
+export class ProfileComponent implements OnInit {
 
-  public  username:  string  =  "";
+  public  username:  string  =  "Test";
   public  email:  string  =  "";
   public  password:  string  =  "";
   public  confirmPassword:  string  =  "";
   public  birthdate:  FormControl = new FormControl(new Date());
 
+  public disableBirthdateUpdates: boolean = true;
+
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
-  register(): void {
-    console.log('Registered');
+  update(): void {
+    console.log('Updated');
   }
 
 }
